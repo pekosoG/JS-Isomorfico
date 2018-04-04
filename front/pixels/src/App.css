@@ -1,0 +1,8 @@
+body{
+  background: gray;
+}
+.el-canvas{
+  background: lightgray;
+  margin-left: 10px;
+  margin-top: 10px;
+}
