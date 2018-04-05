@@ -1,7 +1,7 @@
 {
-  "name": "pixels-sockets",
+  "name": "users",
   "version": "1.0.0",
-  "description": "sockets impl - workshop talent land 2018",
+  "description": "users handler for pixels",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,15 @@
   },
   "keywords": [
     "pixels",
-    "talentland",
-    "devf",
-    "itexico"
+    "users",
+    "talent",
+    "land",
+    "pekosog"
   ],
-  "author": "PekosoG",
+  "author": "pekosog",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
-    "socket.io": "^2.0.4"
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
   }
 }

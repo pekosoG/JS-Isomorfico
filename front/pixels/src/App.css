@@ -6,3 +6,44 @@ body{
   margin-left: 10px;
   margin-top: 10px;
 }
+
+input{
+  margin-left: 200px;
+  margin-top: 10px;
+  width: 350px;
+  height: 20px;
+  font-size:18px;
+  padding:5px 5px 5px 5px;
+  border:none;
+  border-bottom:1px solid #757575;
+  border-radius: 3px;
+}
+
+input:focus 		{ outline:none; }
+
+button{
+  margin-left: 16px;
+  width: 80px;
+  height: 30px;
+  padding:5px 5px 0px 5px;
+  background-color: yellow;
+  border: none;
+  outline: 0;
+  border-radius: 2px;
+}
+
+button:active{
+  outline: 0;
+}
+
+button:focus{
+  outline:0;
+}
+
+button:hover{
+  background-color: yellowgreen;
+}
+
+button:active{
+  transform: translateY(1px);
+}
